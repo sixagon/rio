@@ -1,0 +1,84 @@
+/* Image Styles
+
+*/
+
+body {
+background-color: #666666;
+}
+
+h1 { 
+font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+font-size: 72px; 
+}
+
+div.content {
+width: 1080px;
+height: 1920px;
+background-color: #ffffff;
+border: 1px solid rgba(0,0,0,1);
+position: relative;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+img.resize {
+    width: 	900px; /* you can use % */
+    height: 900px;
+	border: 1px solid rgba(0,0,0,1);
+}
+
+
+div.btnStart {
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+top: 1150px;
+left: 300px;
+height: 75px;
+width: 450px;
+display: block;
+cursor: hand;
+cursor: pointer;
+background: #00aeef;
+border: 2px solid rgba(72, 72, 72, 0.59);
+border-radius: 32px;
+padding-top: 20px;
+font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+font-size: 48px;
+text-align: center;
+color: #ffffff;
+-webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+}
+
+div.btnNext {
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+top: 1150px;
+left: 300px;
+height: 75px;
+width: 450px;
+display: block;
+cursor: hand;
+cursor: pointer;
+background: #009900;
+border: 2px solid rgba(72, 72, 72, 0.59);
+border-radius: 32px;
+padding-top: 20px;
+font-family: ‘Metrophobic’, Arial, serif; font-weight: 400;
+font-size: 48px;
+text-align: center;
+color: #ffffff;
+-webkit-user-select: none; /* Chrome/Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+}
+
+
+
+
+
+
